@@ -6,6 +6,19 @@ export const cardData =
         "id": null,
         "name": "Gizmodo.com"
       },
+      "author": "BKU Ekta",
+      "title": " Farmer unions reach Zira to join stir against water, soil pollution in Punjab",
+      "description": "BATHINDA: Angered by Sunday’s police crackdown on the protesters heading to a distillery near Ferozepur district’s.Read more...",
+      "url": "https://timesofindia.indiatimes.com/city/chandigarh/farmer-unions-reach-zira-to-join-stir-against-water-soil-pollution/articleshow/96358713.cms",
+      "urlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.livelaw.in%2Fcolumns%2Ffalling-groundwater-table-and-rising-pollution-green-revolution-punjab-preservation-of-subsoil-water-act-212623&psig=AOvVaw3GmHvNvsgOz4HVvp-4ZyBc&ust=1681123197083000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKjzuonOnP4CFQAAAAAdAAAAABAE",
+      "publishedAt": "2023-04-09T15:20:39Z",
+      "content": "This story by the Center for Public Integrity was published in partnership with Grist and is part of a series on soil lead contamination.\r\nIs lead lurking in the soil around you?\r\nDangerous lead cont… [+8433 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
       "author": "Yvette Cabrera, Grist",
       "title": "Does Your Community Have Lead in Its Soil? Here’s What to Do",
       "description": "This story by the Center for Public Integrity was published in partnership with Grist and is part of a series on soil lead contamination.Read more...",

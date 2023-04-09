@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 .home .home-hero-nature{
-    /* height: 100vh; */
+    height: 100vh;
     overflow: hidden;
 }
 
 
 .home .home-hero-nature .nature{
     width: 100%;
-    position: relative;
+    position: absolute;
+    bottom: -10px;
 }
 
 .home .home-hero-nature .div-wave{
@@ -71,6 +72,11 @@
     
 }
 
+@media (max-width:1439px){
+    .home .home-hero-nature .text{
+        padding-top: 30rem;
+    }
+}
 
 .home .second-container{
     background-color: #003F5D;
@@ -120,6 +126,7 @@
     font-size: 7rem;
     color: #265676;
 }
+
 .soil-pollution-details .top-content div p{
     width: 80%;
     font-size: 3rem;
@@ -170,4 +177,13 @@
     line-height: 4rem;
     text-align: justify;
     color: #000000ad;
+}
+
+@media (max-width:1439px){
+    .soil-pollution-details .top-content div h3, .save-soil .top-content div h3{
+        font-size: 5rem;
+    }
+    .soil-pollution-details .top-content div p, .save-soil .top-content div p{
+        font-size: 2.3rem;
+    }
 }

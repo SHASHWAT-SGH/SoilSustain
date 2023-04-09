@@ -4,6 +4,14 @@
     overflow: hidden;
 
 }
+
+@media (max-width:1439px){
+    .landing-page{
+        display: none;
+    }
+
+}
+
 .landing-page video{
     position: absolute;
     width: 100%;

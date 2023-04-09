@@ -18,6 +18,8 @@ export default function CropRecomendation() {
         },1500)
     });
 
+    const [btnloding, setbtnloding] = useState(false);
+
 
 
     const [values, setValues] = useState({
@@ -90,7 +92,7 @@ export default function CropRecomendation() {
               {inputs.map((input) => (
                 <FormInfoCrop key={input.id} {...input} value={values[input.name]} onChange={onChange} />
               ))}
-              <button>Submit</button>
+              <button>{btnloding?"Loading...":"Submit"}</button>
             </form>
           </div>)
       }
@@ -98,9 +100,9 @@ export default function CropRecomendation() {
       const handleSubmit = async (event) => {
 
         event.preventDefault();
-        // setLoading(true)
+        setbtnloding(true)
         const { data } = await axios.post(`https://crop-prediction-s82v.onrender.com/predict`, { nitrogen: Number(values.nitrogen), phosphorus: Number(values.phosphorus), potassium: Number(values.potassium), temperature: Number(values.temperature), humidity: Number(values.humidity), ph: Number(values.ph), rainfall: Number(values.rainfall) })
-        // setLoading(false)
+        setbtnloding(false)
         alert(`You should plant ${data.result} in your field`);
       }
 
