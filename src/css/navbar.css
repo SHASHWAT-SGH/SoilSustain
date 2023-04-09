@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+
+:root{
+    --red:rgb(209 80 40);
+    --black:#713b1a;
+    --light-color:#666;
+    /* v h blur spread color insight */
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.active{
+    border-bottom: 2px solid #6EDAC9;
+}
+
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #003F5D;
+    padding: 0.4rem 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    /* background-color: red; */
+}
+
+header .web-name{
+    margin-left: 270px;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: white;
+    font-family: 'Alkatra', cursive;
+}
+
+header .navbar a:hover{
+    border-bottom: 2px solid #6edacab5;
+}
+
+header .lottie-container{
+    overflow: hidden;
+}
+.logo-lottie{
+    height: 5rem;
+    padding: 0;
+    margin: 0;
+    transform: scale(1.6);
+}
+
+.web-name{
+    color: white;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 3rem;
+    border: solid white 2px;
+    padding: 1px 3px;
+    border-radius: 4px;
+}

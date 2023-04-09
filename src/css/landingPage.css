@@ -1,0 +1,76 @@
+.landing-page{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.landing-page video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.landing-page .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 2, 2, 0.694);
+}
+
+.landing-page .content{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(237, 237, 237);
+}
+
+.landing-page .content .text{
+    font-size: 5rem;
+    font-weight: bold;
+    margin: -71px;
+
+}
+
+.landing-page .content .para{
+    margin-top: 6rem;
+    font-size: 3rem;
+}
+
+.landing-page .button{
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.landing-page .button .button1{
+    position: absolute;
+    bottom: 4rem;
+    right: 5rem;
+    border-radius: 2rem;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    background-color: #5aa9ce;
+    font-weight: bold;
+    border: white solid 3px;
+}
+
+.landing-page .button .button1:hover{
+    transition: transform 0.4s;
+    transform: scale(1.2);
+    border: white dotted 3px;
+
+}

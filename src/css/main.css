@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+.home .home-hero-nature{
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.home .home-hero-nature .nature{
+    width: 100%;
+    position: relative;
+}
+
+.home .home-hero-nature .div-wave{
+    /* background-color: red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.home .home-hero-nature .wave{
+    position: absolute;
+    top: 317px;
+    left: -322px;
+    z-index: 1;
+    height: 100%;
+    padding-top: 8rem;
+    /* padding-left: 4rem; */
+    width: 40%;
+    transform: rotate(-60deg);
+    
+}
+
+
+.home .home-hero-nature .text-heading{
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding-top: 14rem;
+    padding-left: 4rem;
+    width: 55%;
+    font-size: 5rem;
+    font-family: 'Alkatra', cursive;
+    color: rgb(81, 4, 4);
+}
+
+.home .home-hero-nature .text-heading span{
+    font-size: 5.5rem;
+}
+
+.home .home-hero-nature .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding-top: 22rem;
+    padding-left: 4rem;
+
+    width: 40%;
+    font-size: 5rem;
+    font-family: 'Alkatra', cursive;
+    color: rgba(81, 4, 4, 0.781);
+    
+}
+
+
+.home .second-container{
+    background-color: #003F5D;
+    height: 92vh;
+}
+
+.home .second-container .gif-container{
+    height: 100%;
+}
+
+.home .second-container .gif-container img{
+    height: 100%;
+}
+
+
+.home-page-main-div, .soil-pollution-details .background{
+    width: 100%;
+    height: 92vh;
+    overflow: hidden;
+    position: relative  ;
+}
+
+.soil-pollution-details .background .backgroundLottie{
+    position: absolute;
+    width: 60%;
+    right: 0px;
+    bottom: 0px;
+}
+
+.soil-pollution-details .top-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.soil-pollution-details .top-content div{
+    width: 50%;
+    height: 100%;
+
+    padding: 3rem;
+}
+
+.soil-pollution-details .top-content div h3{
+    font-size: 7rem;
+    color: #265676;
+}
+.soil-pollution-details .top-content div p{
+    width: 80%;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: justify;
+    color: #000000ad;
+}
+
+.save-soil .background{
+    width: 100%;
+    height: 92vh;
+    overflow: hidden;
+    position: relative  ;
+}
+
+.save-soil .background .backgroundLottie{
+    position: absolute;
+    width: 50%;
+    left: 0px;
+    bottom: 0px;
+}
+
+.save-soil .top-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.save-soil .top-content div{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 1.5rem;
+}
+
+.save-soil .top-content div h3{
+    font-size: 7rem;
+    color: #265676;
+}
+.save-soil .top-content div p{
+    width: 80%;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: justify;
+    color: #000000ad;
+}

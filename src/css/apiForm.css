@@ -1,0 +1,117 @@
+.api-form-main-div{
+    margin-top: 6rem;
+    width: 100vw;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #003F5D; */
+    align-items: center;
+}
+
+.api-form{
+    background-color: #003F5D;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    border-radius: 20px;
+    border: #061c27 solid 2px;
+    width: 50%;
+    height: 80vh;
+    margin-right: 6rem;
+    color: white;
+    box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); */
+}
+
+
+.api-form .input-txt{
+    /* Box sizing and padding */
+  box-sizing: border-box;
+  padding: 8px;
+  
+  /* Border and background */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  
+  /* Text color and font */
+  color: #333;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  
+  /* Hover and focus styles */
+  transition: border-color 0.2s ease-in-out;
+
+  width: 50%;
+
+}
+
+
+.api-form .input-txt:hover ,.api-form .input-txt:focus{
+    border-color: #007bff;
+    outline: none;
+}
+
+.api-form label{
+    font-size: 2.5rem;
+    margin-right: 1.4rem;
+}
+
+.api-form #input-lat{
+    margin-left: 2rem;
+}
+
+.api-form .span1{
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+}
+
+.api-form .input-btn{
+    /* Box sizing and padding */
+  box-sizing: border-box;
+  padding: 8px 16px;
+  
+  /* Border and background */
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  
+  /* Text and font */
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  /* Hover and focus styles */
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+
+  width: 35%;
+  margin-top: 10%;
+  align-self: flex-end;
+}
+
+.api-form .input-btn:hover{
+    background-color: #0062cc;
+    outline: none;
+}
+
+.api-form .result{
+    font-size: 2.2rem;
+    line-height: 4rem;
+    position: absolute;
+    bottom: 10rem;
+    width: 30%;
+    
+}
+.api-form .result .bold{
+    font-weight: bold;
+}
+
+.api-form .loding{
+    width: 100px;
+    align-self: center;
+    position: absolute;
+    bottom: 15rem;
+}
