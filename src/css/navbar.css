@@ -28,7 +28,7 @@ header{
 }
 
 header .web-name{
-    margin-left: 270px;
+    margin-left: 10%;
 }
 
 header .navbar a{
@@ -62,3 +62,6 @@ header .lottie-container{
     padding: 1px 3px;
     border-radius: 4px;
 }
+
+
+/* media query for phone */

@@ -99,7 +99,7 @@ export default function CropRecomendation() {
 
         event.preventDefault();
         // setLoading(true)
-        const { data } = await axios.post(`http://127.0.0.1:8000/predict`, { nitrogen: Number(values.nitrogen), phosphorus: Number(values.phosphorus), potassium: Number(values.potassium), temperature: Number(values.temperature), humidity: Number(values.humidity), ph: Number(values.ph), rainfall: Number(values.rainfall) })
+        const { data } = await axios.post(`https://crop-prediction-s82v.onrender.com/predict`, { nitrogen: Number(values.nitrogen), phosphorus: Number(values.phosphorus), potassium: Number(values.potassium), temperature: Number(values.temperature), humidity: Number(values.humidity), ph: Number(values.ph), rainfall: Number(values.rainfall) })
         // setLoading(false)
         alert(`You should plant ${data.result} in your field`);
       }

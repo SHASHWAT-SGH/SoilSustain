@@ -67,6 +67,7 @@ export default function Main(){
                     A Step Towards <span>Conserving Soil</span>
                 </div>
                 <div className="text" ref={el}/>
+                
             </div>
 
             <div className="soil-pollution-details home-page-main-div">
